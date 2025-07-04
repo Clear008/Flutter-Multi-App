@@ -31,7 +31,7 @@ Une application **Flutter** simple avec un menu latéral (Drawer) permettant de 
 - Description de la météo avec une icône correspondante
   
 <img src="/images/weather.png" alt="Weather" width="200" />
-<img src="/images/Capture-Weather.png" alt="Capture-Weather" width="200" />
+
 
 ## 🚀 Démarrage rapide
 
