@@ -33,7 +33,7 @@ Une application Flutter simple regroupant plusieurs mini-applications :
 
 1. Cloner le dépôt :
    ```bash
-   git clone https://github.com/ton-utilisateur/nom-du-repo.git.git
+   git clone https://github.com/Clear008/Flutter-Multi-App
 
 
 ## Installer les dépendances :
