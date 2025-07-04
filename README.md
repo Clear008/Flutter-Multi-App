@@ -1,50 +1,58 @@
-# Flutter Drawer App
+# Flutter Multi-App
 
-Une application **Flutter** simple avec un menu latéral (Drawer) permettant de naviguer entre deux pages :
-* Quiz Page
-* Weather Page
+Une application Flutter simple regroupant plusieurs mini-applications :
+- Quiz
+- Weather (météo)
+- Counter (compteur)
+- Contact (liste de contacts)
+- Gallery (recherche et affichage d’images via l’API Pixabay)
 
-  - Projet réalisé dans le cadre d’un cours d’introduction à Flutter.
-  
-## 📱 Fonctionnalités
+---
 
-- Interface avec AppBar personnalisée
-- Drawer avec :
-  - Photo de profil
-  - Navigation vers les pages Quiz et Weather
+## Fonctionnalités
 
-<img src="/images/Drawer.png" alt="Aperçu du Chat" width="200" />
+- **Page d’accueil** avec navigation vers chaque mini-app via boutons et drawer.
+- **Quiz** : Un petit quiz interactif (fonctionnalité à personnaliser).
+- **Weather** : Affichage météo (fonctionnalité à compléter selon implémentation).
+- **Counter** : Compteur simple avec incrémentation/décrémentation.
+- **Contact** : Liste de contacts affichant nom, email, téléphone avec design soigné.
+- **Gallery** : Recherche d’images en ligne avec pagination infinie via l’API Pixabay.
+## Images de l'App
 <img src="/images/Mainpage.png" alt="Aperçu du Chat" width="200" />
-
-### 🎯 Quiz
-- Questions multiples avec choix de réponses
-- Suivi dynamique du score
-- Retour/feedback sur les réponses sélectionnées
-
+<img src="/images/Drawer.png" alt="Aperçu du Chat" width="200" />
 <img src="/images/quiz.png" alt="Aperçu du Chat" width="200" />
-
-<img src="/images/quiz2.png" alt="Aperçu du Chat" width="200" />
-
-### ☁️ Weather Module
-- Recherche météo par nom de ville
-- Affichage Date,heure,Température,Humidité et pression.
-- Description de la météo avec une icône correspondante
-  
-<img src="/images/weather.png" alt="Weather" width="200" />
+<img src="/images/weather.png" alt="Aperçu du Chat" width="200" />
+<img src="/images/counter.png" alt="Aperçu du Chat" width="200" />
+<img src="/images/contact.png" alt="Aperçu du Chat" width="200" />
+<img src="/images/gallery.png" alt="Aperçu du Chat" width="200" />
 
 
-## 🚀 Démarrage rapide
+---
 
-### 1. Cloner le projet
+## Installation
 
-git clone https://github.com/Clear008/drawerApp.git
-cd drawerApp
+1. Cloner le dépôt :
+   ```bash
+   git clone https://github.com/ton-utilisateur/nom-du-repo.git.git
 
-## ▶️ Lancer le projet
-Assure-toi d’avoir Flutter installé, puis exécute :
 
+## Installer les dépendances :
 - flutter pub get
 - flutter run
+
+## API utilisée
+- Pixabay API pour la galerie d’images.
+- Note : La clé API est incluse dans le code, pensez à en créer une gratuite pour usage personnel.
+
+
+## Structure du projet
+- main.dart : Point d’entrée de l’application et gestion de la navigation principale.
+- quiz.dart : Mini-app Quiz.
+- weather.dart : Mini-app météo.
+- counter.dart : Mini-app compteur.
+- contact.dart : Mini-app liste de contacts.
+- gallery.dart : Mini-app galerie avec recherche d’images.
+
 
 ## 📞 Contact
 - Développeur : Leknouch Wissal
